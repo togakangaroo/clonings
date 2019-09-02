@@ -3,7 +3,7 @@
 
 (ns bindings.bindings1)
 
-(x 5)
+(def x 5)
 
 (defn -main []
   (println "x has the value" x))

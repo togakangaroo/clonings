@@ -3,7 +3,7 @@
 
 (ns bindings.bindings3)
 
-(def x 5)
+(def ^:dynamic x 5)
 
 (defn -main []
   (binding [x 7]
