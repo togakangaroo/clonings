@@ -5,7 +5,10 @@
 (defn bigger [a b]
   ;; Complete this function using `if` to return the bigger number!
   ;; Do not use additional bindings
-  )
+  (if (> a b)
+    a
+    b))
+  
 
 
 

@@ -5,12 +5,12 @@
 
 (defn -main []
   (if (> 5 2)
-
+    (do
       (println "5 is greater than 2 indeed!")
-      (println "Everything is right with the world!")
-
+      (println "Everything is right with the world!"))
+    (do
       (println "2 is greater than 5!")
-      (println "Everything is a lie!")))
+      (println "Everything is a lie!"))))
 
 
 
