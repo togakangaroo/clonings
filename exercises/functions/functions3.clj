@@ -3,12 +3,13 @@
 
 (ns functions.functions3)
 
-(defn -main []
-  (call-me 3))
-
 (defn call-me [num]
   (doseq [i (range num)]
     (println "Ring! Call number" (+ i 1))))
+
+(defn -main []
+  (call-me 3))
+
 
 
 

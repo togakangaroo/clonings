@@ -3,6 +3,9 @@
 
 (ns functions.functions1)
 
+(defn call-me []
+  nil)
+
 (defn -main []
   (call-me))
 

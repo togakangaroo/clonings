@@ -12,6 +12,9 @@
 
 ;; Put your function here!
 ;; (defn calculate-price ...
+(defn calculate-price [count]
+  (let [price (if (> count 40) 1 2)]
+    (* price count)))
 
 ;; Don't modify this function!
 (require '[clojure.test :refer [deftest testing is]])
