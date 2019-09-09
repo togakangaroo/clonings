@@ -6,24 +6,17 @@
 (defn find-first
   "Returns the first element in the given collection"
   [coll]
-  ;; write your function code here
-  )
+  (first coll))
 
 (defn find-last
   "Returns the last element in the given collection"
   [coll]
-  ;; write your function code here
-  )
+  (last coll))
 
 (defn find-third
   "Returns the third element in the given collection"
   [coll]
-  ;; write your function code here
-  )
-
-
-
-
+  (nth (seq coll) 2))
 
 
 
@@ -118,6 +111,8 @@
 
 
 ;; ignore this section for now!
+
+
 (require '[clojure.test :refer [deftest testing is]])
 
 (deftest test-find-first

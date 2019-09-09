@@ -9,7 +9,7 @@
   (let [is-morning? true]
     (if is-morning?
       (println "Good morning!")))
-  (let [is-evening?] ;; Finish the rest of this line like the example! Or make it be false!
+  (let [is-evening? false] ;; Finish the rest of this line like the example! Or make it be false!
     (if is-evening?
       (println "Good evening!"))))
 

@@ -4,7 +4,7 @@
 (ns collections.collections1)
 
 (defn -main []
-  (if (coll? ???)
+  (if (coll? '(1 2 3))
     (println "That's a great looking collection you've got there!")
     (println "Hmm, this doesn't look like any collection I've seen!")))
 

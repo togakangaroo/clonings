@@ -7,9 +7,7 @@
   "Returns a copy of the collection with the value 50 added!"
   [coll]
   (let [new-value 50]
-    ;; fill in your code here, using the `conj` function
-    ???
-    ))
+    (conj coll new-value)))
 
 (def a-list '(3 2 1))
 
@@ -19,13 +17,11 @@
   (let [;; Can you guess what the first element of my-list will be?
         my-list       (add-50 a-list)
         my-list-guess (= (first my-list)
-                         ??? ;; replace this with your guess
-                         )
+                         50)
         ;; Can you guess what the first element of my-vector will be?
         my-vector     (add-50 a-vector)
         my-vec-guess  (= (first my-vector)
-                         ??? ;; replace this with your guess
-                         )]
+                         3)]
     (if my-list-guess
       (println "your guess for the first element of the list was correct! :)")
       (println "your guess for the first element of the list was not correct!"))

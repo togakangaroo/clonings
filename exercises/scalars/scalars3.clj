@@ -4,7 +4,7 @@
 (ns scalars.scalars3)
 
 (defn -main []
-  (let [s (??? "Hello" "World")]
+  (let [s (clojure.string/join "Hello" "World")]
     (println s)))
 
 

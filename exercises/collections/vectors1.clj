@@ -15,10 +15,10 @@
 ;; which behaves as if calling the `nth` function on it.
 
 ;; try creating your own vector here!
-(def my-vector ???)
+(def my-vector [4 2])
 
 (defn -main []
-  (if (vector? my-list)
+  (if (vector? my-vector)
     (println "I'm going to be reading your vector now...")
     (do
       (println "Hey! It doesn't look like you've given me a valid vector!")

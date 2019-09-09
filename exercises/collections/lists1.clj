@@ -7,7 +7,7 @@
 (def a-list '(1 2 3 4 5))
 
 ;; try creating your own list here!
-(def my-list ???)
+(def my-list '(6 5 7 2))
 
 (defn -main []
   (if (list? my-list)

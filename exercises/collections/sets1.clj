@@ -7,13 +7,11 @@
 (def a-set #{1 2 3 4 5})
 
 ;; try creating your own set here!
-(def my-set ???)
+(def my-set #{1 2})
 
-(defn convert-to-set
-  [coll]
+(defn convert-to-set [coll]
   ;; try converting `coll` to a set here
-  ???
-  )
+  (set coll))
 
 (defn -main []
   (if (set? my-set)
@@ -29,7 +27,7 @@
       (println "Your convert-to-set function works perfectly!")
       (do
         (println "I didn't get a correct result for convert-to-set, please try again!")
-        (throw (AssertionError. "incorrect convert-to-set implementation")))))
+        (throw (AssertionError. "incorrect convert-to-set implementation"))))))
 
 
 

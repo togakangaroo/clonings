@@ -6,7 +6,7 @@
 
 (deftest test-scalars6
   ;; Use regular expressions to solve this problem!
-  (let [regex ???
+  (let [regex #"ABC"
         match-result (re-find regex "abcdefgABCdefg")]
     (is (= "ABC" match-result))))
 
