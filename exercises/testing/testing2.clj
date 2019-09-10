@@ -6,7 +6,7 @@
   (:require [clojure.test :refer [deftest is]]))
 
 (deftest you-can-assert-eq
-  (is (=)))
+  (is (= 1 1)))
 
 
 

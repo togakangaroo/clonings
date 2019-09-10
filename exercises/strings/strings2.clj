@@ -7,7 +7,7 @@
 
 (defn print-fruit-order [fruit-name n]
   ;; complete the function here!
-  "You have ordered: ")
+  (str "You have ordered: " n " " fruit-name))
 
 (deftest return-formatted-string
   (is (= "You have ordered: 5 kumquats"
@@ -17,7 +17,8 @@
 
 (defn mangle-string [s]
   ;; complete the function here!
-  )
+  (string/upper-case
+   (string/reverse s)))
 
 (deftest return-mangled-string
   (is (= "TON OD RO OD"

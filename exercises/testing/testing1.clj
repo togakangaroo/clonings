@@ -10,7 +10,7 @@
 ;; pass! Make the test fail! Scroll down for hints :)
 
 (deftest you-can-assert
-  (is))
+  (is (= 1 1)))
 
 
 

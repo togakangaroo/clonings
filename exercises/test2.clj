@@ -14,8 +14,7 @@
   (* n 2))
 
 (deftest returns-twice-of-positive-number
-  (is (= (times-two 4) ???)))
+  (is (= (times-two 4) 8)))
 
 (deftest returns-twice-of-negative-number
-  ;; TODO: write a test for (times-two -4)
-  )
+  (is (= (times-two -4) -8)))

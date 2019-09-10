@@ -8,19 +8,20 @@
 (deftest return-the-fourth-character
   (let [input     "abcdefg"
         ;; using the value of `input`, find the 4th character!
-        my-answer ???]
+        my-answer (nth input 3)]
     (is (= \d my-answer))))
 
 (deftest return-the-length
   (let [input     "abcdefg"
         ;; using the value of `input`, find out how many characters there are!
-        my-answer ???]
+        my-answer (count input)]
     (is (= 7 my-answer))))
 
 (deftest chop-the-head
   (let [input     "abcdefg"
         ;; using the value of `input`, remove the first character!
-        my-answer ???]
+        my-answer (string/join ""
+                               (rest input))]
     (is (= "bcdefg" my-answer))))
 
 

@@ -10,7 +10,8 @@
   (= (mod n 2) 0))
 
 (deftest is-true-when-even
-  (is))
+  (is (is-even? 2))
+  (is (not (is-even? 3))))
 
 
 
