@@ -20,7 +20,8 @@
 ;; https://clojure.org/reference/data_structures#Keywords
 
 ;; try creating your own map here!
-(def my-map ???)
+(def my-map {:a 1
+              :b 2})
 
 (defn -main []
   (if (map? my-map)

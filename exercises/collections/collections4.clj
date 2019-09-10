@@ -7,7 +7,7 @@
 (contains? #{:a :b :c :d :e} :b) ;; returns true
 
 ;; try using contains? to check if a map has :a
-(let [my-map #{???}]
+(let [my-map #{:a 1}]
   (if (contains? my-map :a)
     (println "Yup, your map does contain :a!")
     (throw (AssertionError. "map should contain :a!"))))
@@ -37,8 +37,7 @@
 (defn list-contains?
   "Returns true if list contains the given value"
   [coll v]
-  ???
-  )
+  (some #(= v %) coll))
 
 (defn -main []
   (if (list-contains? a-vector :b)
